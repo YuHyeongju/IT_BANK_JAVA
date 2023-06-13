@@ -1,0 +1,15 @@
+package condition;
+
+import java.util.Scanner;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("사과,딸기,바나나,배,포도중 하나를 입력해주세요");
+		System.out.println("입력");
+	}
+
+}

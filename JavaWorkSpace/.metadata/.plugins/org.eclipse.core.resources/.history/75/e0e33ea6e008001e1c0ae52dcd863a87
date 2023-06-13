@@ -1,0 +1,12 @@
+package operation;
+
+public class Ex07 {
+
+	public static void main(String[] args) {
+		
+		String str = (10 > 20) ? "참입니다." : "거짓입니다."; //삼항연산자
+		
+		System.out.println(str);
+	}
+
+}

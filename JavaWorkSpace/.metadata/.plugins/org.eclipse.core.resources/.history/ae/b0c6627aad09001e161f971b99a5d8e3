@@ -1,0 +1,36 @@
+package condition;
+
+import java.util.Scanner;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("사과,딸기,바나나,배,포도중 하나를 입력해주세요");
+		System.out.println("입력");
+		String fruit = sc.next();
+		
+		switch(fruit) {
+		case "사과":
+			System.out.println("사과를 선택했습니다.");
+			break;
+		case "딸기":
+			System.out.println("딸기를 선택했습니다.");
+			break;
+		case "바나나":
+			System.out.println("바나나를 선택했습니다.");
+			break;
+		case "배":
+			System.out.println("배를 선택했습니다.");
+			break;
+		case "포도":
+			System.out.println("포도를 선택했습니다.");
+			break;
+		default:
+			System.out.println("잘못입력하셨습니다.");
+		}
+	}
+
+}

@@ -1,0 +1,22 @@
+package condition;
+
+import java.util.Scanner;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		
+		//주민번호를 입력받아 성별 맞추기
+		
+		char gender = ' '; //성별
+		String ssn = " ";  //주민번호
+	
+		Scanner sc = new Scanner(System.in);
+		System.out.println("주민번호를 입력하여주세요");
+		System.out.println("ex)123456-123456");
+		System.out.println("입력 :");
+		ssn = sc.next();
+		
+	}
+
+}

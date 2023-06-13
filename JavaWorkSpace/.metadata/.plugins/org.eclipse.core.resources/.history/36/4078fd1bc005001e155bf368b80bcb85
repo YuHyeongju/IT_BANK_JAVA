@@ -1,0 +1,14 @@
+package varialble;
+
+public class Ex07 {
+
+	public static void main(String[] args) {
+		
+		byte a = 10;
+		int b = a;
+		
+		char ch = a;
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package varialble;
+
+public class Ex05 {
+	
+	
+	
+	public static void main(String[] args) {
+	
+		boolean bool1 = true;
+		boolean bool2 = false;
+		
+		
+		
+	}
+}

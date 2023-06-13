@@ -1,0 +1,26 @@
+package loop;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		int i,j;
+		
+		for(i = 1; i <= 5; i++) {
+			
+			System.out.println("for문 안입니다. i: " + i);
+			
+		}
+		
+		System.out.println("for문을 나왔습니다.... i : "+ i);
+		
+		for(j=2; j <=10; j+= 2) {
+			
+			System.out.println(j+" ");
+			
+		}
+		
+		
+	}
+
+}

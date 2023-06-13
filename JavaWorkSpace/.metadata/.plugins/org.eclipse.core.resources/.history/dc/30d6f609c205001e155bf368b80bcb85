@@ -1,0 +1,16 @@
+package varialble;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		
+		byte a = 65;
+		char ch =(char)a; //강제타입변환(캐스팅)
+		/*char는 음수가 없는 특수 자료형이기 때문에 자동타입변환 예외이다.->강제타입변환해준다.*/
+		System.out.println(ch);
+		
+		int b = 128;
+		byte c = b;
+	}
+
+}

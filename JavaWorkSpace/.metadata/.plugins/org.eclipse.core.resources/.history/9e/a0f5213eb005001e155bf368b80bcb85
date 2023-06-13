@@ -1,0 +1,16 @@
+package varialble;
+
+public class Ex01 {
+
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		int a; //정수타입의 변수선언
+		
+		
+		
+	}
+}

@@ -1,0 +1,11 @@
+package varialble;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		
+		byte a = 65;
+		char ch =(char)a; //강제타입변환(캐스팅)
+	}
+
+}

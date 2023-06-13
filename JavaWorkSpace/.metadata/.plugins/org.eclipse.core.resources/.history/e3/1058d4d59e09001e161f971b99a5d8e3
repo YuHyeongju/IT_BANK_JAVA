@@ -1,0 +1,63 @@
+package condition;
+
+import java.util.Scanner;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc  = new Scanner(System.in);
+		
+		int num1, num2 ,num3;
+		int max = 0;  
+		int min = 0;
+		double avg = 0.0;
+		
+		
+		
+		
+		
+		
+		System.out.println("첫번째 정수 입력: ");
+		num1 = sc.nextInt();
+		
+		System.out.println("두번째 정수 입력: ");
+		num2 = sc.nextInt();
+		
+		System.out.println("세번째 정수 입력: ");
+		num3 = sc.nextInt();
+		
+		//3개의 정수 중에서 if else문을 사용하여 3개의 정수중에 가장 큰 수를 찾아 max변수 할당
+		//가장 작은 수를 찾아 min 변수에 할당 
+		//평균을 구한 후 avg 변수에 할당
+		
+		if(num1 > num2 && num2 > num3) {
+			max = num1;
+			min = num3;
+		}else if(num1>num3 && num3 > num2){
+			max = num1;
+			min = num2;
+		}else if(num2 > num1 && num1 >num3) {
+			max = num2;
+			min = num3;
+		}else if(num2>num3 && num3 >num1) {
+			max = num2;
+			min = num1;
+		}else if(num3 > num2 && num2 >num1) {
+			max = num3;
+			min = num1;
+		}else if(num3 > num1 && num1 >num2) {
+			max= num3;
+			min = num2;
+		}else {
+			System.out.println("잘못입력하셨습니다.");
+		}
+		
+		avg=(num1+num2+num3)/3;
+		
+		System.out.println("최대값은 : "+ max);
+		System.out.println("최소값은 : "+ min);
+		System.out.println("평균은 : "+ avg);
+	}
+
+}

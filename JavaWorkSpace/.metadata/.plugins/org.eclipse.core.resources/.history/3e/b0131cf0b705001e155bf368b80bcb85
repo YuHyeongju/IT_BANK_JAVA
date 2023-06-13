@@ -1,0 +1,11 @@
+package varialble;
+
+public class Ex03 {
+	
+	
+	public static  void main(String[] args) {
+		byte  a = 100;
+		short  b = 200;
+				
+	}
+}

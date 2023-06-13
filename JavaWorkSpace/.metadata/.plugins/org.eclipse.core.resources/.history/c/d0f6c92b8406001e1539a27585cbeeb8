@@ -1,0 +1,31 @@
+package input;
+
+import java.util.Scanner;
+//import 할떄는  ctrl + shift + o 입력
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("문자열을 입력하세요 : ");
+		
+		String str = sc.next();// 문자열: next() - 공백전까지 입력한 문자열을 읽어온다. 
+		
+		System.out.println(str);
+		
+		System.out.println("정수를 입력하세요 :  ");
+		
+		int i = sc.nextInt(); //정수: nextInt() - 공백전까지 입력한 정수을 읽어온다. 
+		
+		System.out.println(i);
+		
+		System.out.println("실수를 입력하세요 :  ");
+		
+		double d = sc.nextDouble(); //실수: nextFloat(),nextDouble() - 공백전까지 입력한 실수을 읽어온다.
+		
+		System.out.println(d);
+	}
+
+}

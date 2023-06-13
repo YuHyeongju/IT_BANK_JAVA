@@ -1,0 +1,10 @@
+package input;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		//Scanner를 사용하여 이름, 나이, 키 몸무게를 입력받고 해당변수에 저장후 출력
+
+	}
+
+}

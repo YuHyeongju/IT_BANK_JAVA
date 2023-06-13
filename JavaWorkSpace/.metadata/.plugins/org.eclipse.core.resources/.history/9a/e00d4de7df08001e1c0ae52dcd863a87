@@ -1,0 +1,39 @@
+package operation;
+
+import java.util.Scanner;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int money, c500, c100, c50, c10;
+		
+		System.out.println("동전으로 교환할돈: ");
+		money = sc.nextInt();
+		
+		//동전의 갯수를 구한 후 해당하는 변수에 저장하기
+		
+		c500 = money / 500;
+		System.out.println("오백원 동전: " + c500 + "개");
+		money = money % 500; //오백원짜리를 교환한 후에 나머지를 money에 저장해줘야함
+		
+		c100 = money / 100;
+		System.out.println("백원 동전: " + c100 + "개");
+		money = money %100;
+		
+		c50 = money / 50;
+		System.out.println("오십원 동전: " + c50 + "개");
+		money = money % 50;
+		
+		c10 = money / 10;
+		System.out.println("십원 동전: " + c10 + "개");
+		money = money % 10;
+		
+		System.out.println("바꾸지못한 잔돈: " + money + "개");
+		
+		
+	}
+
+}

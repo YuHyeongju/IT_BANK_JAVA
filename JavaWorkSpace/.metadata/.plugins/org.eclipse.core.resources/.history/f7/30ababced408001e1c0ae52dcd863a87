@@ -1,0 +1,20 @@
+package operation;
+
+public class Ex01 {
+	
+	public static void main(String[] args) {
+	
+		int i,j;
+		
+		i = +100;// 부호 연산자
+		j = -200;
+		
+		System.out.println(i+j);
+		
+		//증감 연산자의 독립사용일때 
+		int x = 1;
+		int y = 1;
+		
+		System.out.println("x : %d, y : %d\n\n",x,y);
+	}
+}

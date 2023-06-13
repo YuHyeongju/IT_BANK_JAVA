@@ -1,0 +1,11 @@
+package input;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		System.out.print("키코드 입력하고 엔터 :  ");
+
+	}
+
+}

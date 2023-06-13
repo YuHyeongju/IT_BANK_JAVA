@@ -1,0 +1,15 @@
+package varialble;
+
+public class Ex06 {
+	public static void main(String[] args) {
+		
+		//byte a =128; //저장불가능 -128 ~ 127까지 저장가능
+		byte b = 127;
+		byte c = -128;
+		
+		System.out.println(b);
+		System.out.println(c);
+	}
+	
+	
+}

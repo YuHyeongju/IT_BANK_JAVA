@@ -1,0 +1,19 @@
+package condition;
+
+import java.util.Scanner;
+
+public class Ex09 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int year;
+		
+		System.out.println("출생년도를 입력:  ");
+		year = sc.nextInt();
+		
+		//쥐,소,범,소,토끼,용,뱀,말,양,원숭이,닭,개,돼지
+	}
+
+}

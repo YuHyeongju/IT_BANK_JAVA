@@ -1,0 +1,21 @@
+package operation;
+
+import java.util.Scanner;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int money, c500, c100, c50, c10;
+		
+		System.out.println("동전으로 교환할돈: ");
+		money = sc.nextInt();
+		
+		//동전의 갯수를 구한 후 해당하는 변수에 저장하기
+		
+		
+	}
+
+}

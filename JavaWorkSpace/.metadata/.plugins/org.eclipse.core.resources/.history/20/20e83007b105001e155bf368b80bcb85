@@ -1,0 +1,22 @@
+package varialble;
+
+public class Ex01 {
+
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		int a; //정수타입의 변수선언
+	    a = 100; // 100으로 초기화
+	    
+	    /*int a = 200;
+	     * 같은 일므의 변수가 2개 = 프로그램에서는 어떤 변수를 골라야할지 알지못함
+	     */
+		
+		int b = 200;
+		
+		System.out.println(b);
+	}
+}

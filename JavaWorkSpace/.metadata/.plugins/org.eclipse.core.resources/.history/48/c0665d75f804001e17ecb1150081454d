@@ -1,0 +1,19 @@
+package folder;
+
+public class HelloJava {
+	
+	public static void main(String[] args) {
+
+		System.out.println("Hello World~!!");
+		
+		System.out.println("/*주석이 될 수 없다*/");
+		
+		/*단축키
+		 * tab:들여쓰기
+		 * 
+		 * 
+		 * */
+
+	}
+
+}

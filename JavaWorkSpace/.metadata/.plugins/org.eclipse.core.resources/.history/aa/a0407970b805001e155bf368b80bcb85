@@ -1,0 +1,17 @@
+package varialble;
+
+public class Ex03 {
+	
+	
+	public static  void main(String[] args) {
+		byte  a = 100; //1바이트
+		 
+		short  b = 200; //2바이트
+		
+		char  c1 = 'A'; //2바이트
+		char  c2 = 65;//char는 내부적으로 정수로 저장되기때문에 오류가 나진 않음
+		
+		int d  = 1000; //4바이트
+				
+	}
+}

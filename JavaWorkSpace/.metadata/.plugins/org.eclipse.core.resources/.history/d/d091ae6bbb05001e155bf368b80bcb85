@@ -1,0 +1,18 @@
+package varialble;
+
+public class Ex06 {
+	public static void main(String[] args) {
+		
+		//byte a =128; //저장불가능 -128 ~ 127까지 저장가능
+		byte b = 127;
+		byte c = -128;
+		
+		System.out.println(b);
+		System.out.println(c);
+		
+		long d = 1234567891L;
+		float e = 123456789123456789123.0f;//실수는 정수보다 더 큰수를 저장 할 수있다.
+	}
+	
+	
+}

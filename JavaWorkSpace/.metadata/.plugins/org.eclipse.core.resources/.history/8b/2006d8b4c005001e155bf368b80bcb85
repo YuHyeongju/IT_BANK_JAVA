@@ -1,0 +1,20 @@
+package varialble;
+
+public class Ex07 {
+
+	public static void main(String[] args) {
+		
+		byte a = 10;
+		int b = a;
+		
+		//char ch = a; //자동타입변환 불가 - 음수를 저장할수있는 byte타입을 
+		             //저장할수없는char타입으로 변환할수없다.
+		System.out.println(b);
+		
+		byte c = 10;
+		byte d = 20;
+		
+		byte result1 = c + d; //오류 
+	}
+
+}

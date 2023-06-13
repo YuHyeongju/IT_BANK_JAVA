@@ -1,0 +1,22 @@
+package condition;
+
+import java.util.Scanner;
+
+public class Ex07 {
+
+	public static void main(String[] args) {
+		//switch문을 사용해서 A학점부터 F학점까지 나누긴
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("1~100까지 중 점수를 입력하여 주세요 : ");
+		
+		int score =sc.nextInt();
+		
+		switch(score) {
+		case 100: case 90 :
+			System.err.println("A학점입니다.");
+		}
+	}
+
+}

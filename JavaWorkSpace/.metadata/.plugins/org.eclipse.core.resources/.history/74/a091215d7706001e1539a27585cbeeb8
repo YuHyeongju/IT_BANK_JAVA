@@ -1,0 +1,14 @@
+package varialble;
+
+public class Ex09 {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		//이름, 전화번호, 주소를 String타입의 변수에 저장하고 출력하기
+		
+		
+		
+	}
+}

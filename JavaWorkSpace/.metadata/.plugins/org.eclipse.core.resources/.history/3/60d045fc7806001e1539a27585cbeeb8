@@ -1,0 +1,21 @@
+package varialble;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		// \문자 알아보기
+		String name = "\"홍길동\""; //큰 따옴표를 출력하고싶을때 사용
+		
+		System.out.println(name);
+		
+		String str = "이몽룡과\t성춘향은\n사랑하는\\사이다";
+		System.out.println(str);
+		/*
+		 * \t:탭만큼띄움 
+		 * \n: 줄바꿈	
+		 * \\:\출력
+		 * "\: "출력
+		 * */
+	}
+
+}
