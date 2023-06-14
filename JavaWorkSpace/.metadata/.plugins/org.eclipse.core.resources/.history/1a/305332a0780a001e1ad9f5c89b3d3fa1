@@ -1,0 +1,17 @@
+package loop;
+
+public class Ex12 {
+
+	public static void main(String[] args) {
+		
+		int x = 100;
+		
+		do {
+			
+			
+			
+		}while(); //세미콜론을 써줌
+		
+	}
+
+}

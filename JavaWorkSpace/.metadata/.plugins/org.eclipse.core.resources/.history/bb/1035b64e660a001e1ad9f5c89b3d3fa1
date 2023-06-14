@@ -1,0 +1,26 @@
+package loop;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		
+		//for문을 사용해서 0~90까지 10단위로 출력하기 
+		//if else문을 사용하여 90 다음에 ,지우기
+		
+		int i;
+		
+		for(i=0; i<=90; i+=10) {
+			if(i !=90) {
+				System.out.printf("%d, ", i);
+			}
+			
+			
+			
+			
+		}
+		
+		
+		
+	}
+
+}

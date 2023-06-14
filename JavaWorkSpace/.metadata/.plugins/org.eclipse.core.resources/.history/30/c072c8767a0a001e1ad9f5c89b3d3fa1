@@ -1,0 +1,22 @@
+package loop;
+
+import java.util.Scanner;
+
+public class Ex15 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int menu;
+		
+		
+		do {
+			
+			System.out.println("[1]아메리카노 [2]라떼 [3]오렌지주스 [4] 그만주문");
+			
+		}while();
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package loop;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		//입력받은 숫자들의 최대값(가장큰수)구하기
+	}
+
+}

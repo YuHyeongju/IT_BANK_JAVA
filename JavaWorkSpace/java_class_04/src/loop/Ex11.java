@@ -1,0 +1,21 @@
+package loop;
+
+public class Ex11 {
+
+	public static void main(String[] args) {
+		
+		//while 문 이용하여 1~10 구하기
+		
+		int i = 0;
+		int sum = 0;
+		
+		while(i <= 10) {
+			sum += i;
+			i++;
+		}
+		
+		System.out.println("1~10까지의 합은: "+sum);
+		
+	}
+
+}

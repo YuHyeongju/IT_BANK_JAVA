@@ -1,0 +1,16 @@
+package loop;
+
+public class Ex09 {
+
+	public static void main(String[] args) {
+		
+		//이중 for문과 System.out.print("*")사용하여 
+		//*****
+		//*****
+		//*****
+		//*****
+		//*****
+		// 이런 모양만들기
+	}
+
+}

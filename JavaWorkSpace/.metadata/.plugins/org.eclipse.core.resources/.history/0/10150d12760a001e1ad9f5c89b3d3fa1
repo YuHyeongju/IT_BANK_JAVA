@@ -1,0 +1,16 @@
+package loop;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		
+		int i = 0;
+		
+		while(i < 5) {
+			System.out.println("while문 안 입니다. i : "+ i);
+			i++;
+		}
+		
+	}
+
+}
