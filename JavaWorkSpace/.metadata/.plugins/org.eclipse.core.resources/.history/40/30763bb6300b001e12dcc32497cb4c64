@@ -1,0 +1,11 @@
+package array;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		int intArray1[] = {1,2,3};
+		
+	}
+
+}

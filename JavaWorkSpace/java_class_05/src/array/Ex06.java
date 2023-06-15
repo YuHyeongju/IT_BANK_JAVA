@@ -1,0 +1,34 @@
+package array;
+
+import java.util.Scanner;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		// for문을 사용하여 정수 5개를 입력 받아 nums 배열의 각 요소에 저장하기
+		// for문을 사용하여 nums 배열의 각 요소 출력(3의 배수만 출력)
+
+		int nums[] = new int[5];
+
+		for (int i = 0; i < nums.length; i++) {
+
+			System.out.println(i + 1 + "번째 정수 입력: ");
+
+			nums[i] = sc.nextInt();
+
+		}
+		for (int i = 0; i < 5; i++) {
+			
+			if (nums[i] % 3 == 0) {
+				
+				System.out.println(i + 1 + "번째 정수 : " + nums[i]);
+				
+			}
+
+		}
+	}
+
+}

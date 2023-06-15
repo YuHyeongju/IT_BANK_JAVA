@@ -3,7 +3,7 @@ package loop;
 public class Ex04 {
 
 	public static void main(String[] args) {
-		//500 ~1000까지의 수 중에서 홀수의 합구하기
+		//500 ~1000까지의 수 중에서 홀수의 합 구하기
 		int i;
 		int sum = 0;
 		
