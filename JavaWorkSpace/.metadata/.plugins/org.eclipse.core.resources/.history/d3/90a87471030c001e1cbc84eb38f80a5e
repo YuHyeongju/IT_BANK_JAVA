@@ -1,0 +1,15 @@
+package array;
+
+public class Ex13 {
+
+	public static void main(String[] args) {
+		
+		//다차원 배열 (2차원 배열)
+		//2차원 배열은 행과 열로 구성됨
+		
+		int[][] array = new  int[2][2];
+		//행,열의 길이가 2인 int타입의 배열
+		
+	}
+
+}

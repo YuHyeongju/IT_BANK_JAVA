@@ -1,0 +1,17 @@
+package array;
+
+public class Ex12 {
+
+	public static void main(String[] args) {
+		
+		int[] scores = {77, 88, 93, 68, 100};
+		
+		for(int score : scores) {//향상된  for문 score는 scores에서꺼낸 정수를 저장
+			
+			System.out.printf(score + " ");
+			
+		}
+		
+	}	
+
+}

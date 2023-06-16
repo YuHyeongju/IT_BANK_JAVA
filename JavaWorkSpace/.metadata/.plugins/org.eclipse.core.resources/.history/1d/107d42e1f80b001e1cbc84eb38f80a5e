@@ -1,0 +1,16 @@
+package array;
+
+import java.util.Scanner;
+
+public class Ex10 {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("동전으로 교환할 돈 입력: ");
+		
+		int money = sc.nextInt();
+		
+		int coin[] = {500, 100, 50, 10};
+	}
+}

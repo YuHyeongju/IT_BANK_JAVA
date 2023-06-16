@@ -26,8 +26,6 @@ public class Ex04 {
 			
 			if (i != 3) {
 				
-				
-				
 				System.out.println("intArray[" + i + "] : " + intArray[i]);
 			}
 

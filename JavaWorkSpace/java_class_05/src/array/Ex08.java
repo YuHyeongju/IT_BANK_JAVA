@@ -21,7 +21,7 @@ public class Ex08 {
 		// index 0 부터 작은 수 로 만들기
 		// (배열, for문 ,if문 ,temp변수 사용)
 
-		for (int i = 0; i < 5; i++) { // i가 0일때 j =1234돈다 i가1일때 j는 234돈다....
+		for (int i = 0; i < 5; i++) { // i가 0일때 j = 1234돈다 i가1일때 j는 234돈다....
 
 			for (int j = i + 1; j < 5; j++) {
 

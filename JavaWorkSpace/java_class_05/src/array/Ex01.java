@@ -37,7 +37,7 @@ public class Ex01 {
 		System.out.println(intArray3[1]);
 		System.out.println(intArray3[2]);
 		
-		
+		//같은 타입의 데이터들을 연속되는 공간에 나열해놓고 각 데이터에 인덱스를 부여한 자료구조
 		
 	}
 

@@ -1,0 +1,15 @@
+package array;
+
+public class Ex12 {
+
+	public static void main(String[] args) {
+		
+		int[] scores = {77, 88, 93, 68, 100};
+		
+		for(int i : scores) {//향상된  for문
+			
+		}
+		
+	}	
+
+}

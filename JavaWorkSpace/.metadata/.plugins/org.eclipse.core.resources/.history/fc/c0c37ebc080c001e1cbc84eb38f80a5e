@@ -1,0 +1,14 @@
+package random;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		int[] lotto = new int[6];
+		
+		//1 ~ 45 까지 수 중에 6를 뽑아 
+		//
+		
+	}
+
+}

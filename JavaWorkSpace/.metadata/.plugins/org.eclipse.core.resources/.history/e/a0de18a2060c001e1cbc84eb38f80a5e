@@ -1,0 +1,23 @@
+package random;
+
+public class Ex01 {
+	
+	public static void main(String[] args) {
+		
+		Double a = Math.random(); //0.0 ~ 0.99999 안에서 난수 생성
+		
+		System.out.println(a);
+		
+		int b = (int)(Math.random() * 10);
+		//0~9 안에서 난수 생성
+		
+		System.out.println(b);
+	
+		//주사위 번호 뽑기 출력
+		
+		int square = (int)(Math.random() * 6);
+		
+		System.out.println(square);
+
+	}
+}

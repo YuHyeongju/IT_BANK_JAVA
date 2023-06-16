@@ -1,0 +1,12 @@
+package array;
+
+public class Ex13 {
+
+	public static void main(String[] args) {
+		
+		//다차원 배열 (2차원 배열)
+		//2차원 배열은 행과 열로 구성됨
+		
+	}
+
+}

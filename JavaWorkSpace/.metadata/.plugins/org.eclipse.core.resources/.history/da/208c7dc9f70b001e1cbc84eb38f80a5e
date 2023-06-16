@@ -1,0 +1,24 @@
+package array;
+
+import java.util.Scanner;
+
+public class Ex09 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("예약 인원 수 입력: ");
+		int inwon = sc.nextInt();
+		
+		String person[] = new String [inwon];
+		
+		for(int i = 0; i < inwon; i++) {
+			
+			
+			
+		}
+		
+	}
+
+}
