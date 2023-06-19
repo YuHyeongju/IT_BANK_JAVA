@@ -1,0 +1,29 @@
+package method;
+
+public class Ex04 {
+
+	//메소드 오버로딩: 같은 이름의 메소드를 여러 개 선언하는것
+	//조건: 매개변수의 타입, 갯수,순서 중 하나가 달라야함
+	//하나의 이름으로 다양한 기능을 수행하기위해 오버로딩을 사용
+	public  static void profile(String name) {
+		System.out.println("이름은"+ name);
+	}
+	
+	public  static void profile(String name,int age) {
+		System.out.println("이름은"+ name);
+		System.out.println("나이"+ age);
+	}
+	
+	public static void profile(String name, int age, String tel) {
+		System.out.println("이름: "+ name);
+		System.out.println("나이 : "+ age);
+		System.out.println("전화번호: "+ tel);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

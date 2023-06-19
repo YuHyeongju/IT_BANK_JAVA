@@ -1,0 +1,16 @@
+package method;
+
+public class Ex03 {
+
+	public static void profile(String name,int age) {//매개변수
+		
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

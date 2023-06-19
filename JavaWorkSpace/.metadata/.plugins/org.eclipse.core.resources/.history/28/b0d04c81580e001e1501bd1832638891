@@ -1,0 +1,26 @@
+package method;
+
+public class Ex01 {
+
+	public static void method1() {
+		System.out.println("void형 메소드는 돌려줄 값이 없다.");
+	}
+	
+	public static int method2() {
+		System.out.println("리턴타입은 int형인 메소드 ");
+		int a = 100;
+		return a;//리턴문을 사용하여 리턴값을 지정해줘야함
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		System.out.println("메인 메소드 입니다.");
+		
+		method1();//void 메소드 호출
+		
+		method2();
+	}
+
+}

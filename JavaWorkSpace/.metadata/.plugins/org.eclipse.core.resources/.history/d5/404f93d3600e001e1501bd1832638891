@@ -1,0 +1,59 @@
+package method;
+
+public class Ex05 {
+
+	//1. 전원을 켭니다 .출력해주는 powerOn메소드만들기
+	// 전원을 끕니다 .출력해주는 powerOff 메소드만들기
+	
+	//2. 두개의 정수를 매개변수로 받아서 더한 다음 결과를 반환해주는 메소드 만들기 add
+	// 	 두개의 정수를 매개변수로 받아서 뺀 다음 결과를 반환해주는 메소드 만들기  subtract
+	// 	 두개의 정수를 매개변수로 받아서 곱한 다음 결과를 반환해주는 메소드 만들기 multiply
+	// 	 두개의 실수를 매개변수로 받아서 나눈 다음 결과를 반환해주는 메소드 만들기 devide
+	
+	//3. 정수 하나를 매개변수로 받아서 그 정수를 출력해주는 메소드 만들기 output
+	//3. 정수 하나를 매개변수로 받아서 그 실수를 출력해주는 메소드 만들기 output
+	
+	public static void powerOn() {
+		System.out.println("전원을 켭니다.");
+	}
+	
+	public static void poweroff() {
+		System.out.println("전원을 끕니다.");
+	}
+	
+	public static int add(int a,int b) {
+		a + b = c;
+		return c;
+	}
+	public static int subtract(int e,int f) {
+		e - f = g;
+		return g;
+	}
+	public static int multiply(int h,int i) {
+		h * i = j;
+		return j;
+	}
+	public static double devide(double k,double l) {
+		k / i = m;
+		return m;
+	}
+	
+	public static int outPut(int z) {
+		System.out.println("z의 값: "+z);
+		return z;
+	}
+	public static double outPut(Double z) {
+		System.out.println("z의 값: "+ z);
+		return z;
+	}
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,71 @@
+package method;
+
+import java.util.Scanner;
+
+public class Ex05 {
+
+	//1. 전원을 켭니다 .출력해주는 powerOn메소드만들기
+	// 전원을 끕니다 .출력해주는 powerOff 메소드만들기
+	
+	//2. 두개의 정수를 매개변수로 받아서 더한 다음 결과를 반환해주는 메소드 만들기 add
+	// 	 두개의 정수를 매개변수로 받아서 뺀 다음 결과를 반환해주는 메소드 만들기  subtract
+	// 	 두개의 정수를 매개변수로 받아서 곱한 다음 결과를 반환해주는 메소드 만들기 multiply
+	// 	 두개의 실수를 매개변수로 받아서 나눈 다음 결과를 반환해주는 메소드 만들기 devide
+	
+	//3. 정수 하나를 매개변수로 받아서 그 정수를 출력해주는 메소드 만들기 outPut
+	//3. 정수 하나를 매개변수로 받아서 그 실수를 출력해주는 메소드 만들기 outPut
+	
+	public static void powerOn() {
+		System.out.println("전원을 켭니다.");
+	}
+	
+	public static void powerOff() {
+		System.out.println("전원을 끕니다.");
+		System.exit(0);//프로그램 종료
+	}
+	
+	public static int add(int a, int b) {
+		return a + b;
+	}
+	public static int subtract(int a, int b) {
+		return a - b;
+	}
+	public static int multiply(int a, int b) {
+		return a * b;
+	}
+	public static double devide(double a, double b) {//정수값이 들어와도 자동타입변환이 된다.
+		return a / b;
+	}
+	
+	public static int outPut(int z) {
+		System.out.println("z의 값: "+z);
+		return z;
+	}
+	public static double outPut(Double z) {
+		System.out.println("z의 값: "+ z);
+		return z;
+	}
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		powerOn();
+		while(true) {
+			
+		}
+		System.out.println();
+		powerOff();
+		add(10,5);
+		subtract(10,5);
+		multiply(10,5);
+		devide(10.0,5.0);
+		outPut(5);
+		outPut(5.0);
+	}
+
+}

@@ -1,0 +1,12 @@
+package method;
+
+public class Ex04 {
+
+	//메소드 오버로딩: 같은 이름의 메소드를 여러개 선언하는것
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

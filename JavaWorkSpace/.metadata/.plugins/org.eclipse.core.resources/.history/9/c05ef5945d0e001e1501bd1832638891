@@ -1,0 +1,12 @@
+package method;
+
+public class Ex04 {
+
+	//메소드 오버로딩
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}
