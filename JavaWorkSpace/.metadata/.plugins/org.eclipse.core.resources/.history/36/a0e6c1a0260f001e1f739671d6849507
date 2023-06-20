@@ -1,0 +1,34 @@
+package class1.field;
+
+class Book{
+	
+	public String title;
+	public String author;
+	public int totalPage;
+	
+	public Book(){
+		
+	}
+}
+
+
+
+
+
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		//Book 클래스에서 Book객체를 생성하고
+		//필드값을 초기화한 후 필드 출력
+		
+		
+		Book book = new Book();
+		
+		System.out.println(Book.title);
+		System.out.println(Book.author);
+		System.out.println(Book.totalPage);
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package class1.field;
+
+
+class Car2{
+	
+	String color;
+	int speed;
+	
+	//매개변수로 매개값을 받아 필드를 초기화하는 메소드
+	
+}
+
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

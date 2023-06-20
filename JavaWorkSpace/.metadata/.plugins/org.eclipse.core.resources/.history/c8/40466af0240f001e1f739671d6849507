@@ -1,0 +1,29 @@
+package class1.field;
+
+
+
+class Car{
+	//필드 
+	String company = "현대자동차";
+	String model = "그랜져";
+	String color = "검정";
+	int maxSpeed = 250;
+	int speed; //default : 0;
+	
+}
+
+
+
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		//car 클래스로부터 Car 객체 생성하기 
+		
+		
+		
+		
+		//객체사용하기(필드 출력)
+	}
+
+}

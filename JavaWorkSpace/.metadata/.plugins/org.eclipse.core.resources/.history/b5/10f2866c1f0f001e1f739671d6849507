@@ -1,0 +1,25 @@
+package class1;
+
+public class ClassMain {
+
+class Person{// 객체를 생성시키는 설계도
+	//클래스 구성맴버
+	//필드,생성자,메소드
+	
+	
+	//필드(객체의 속성)
+	//class안에 선언된 변수
+}
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+		
+		
+		
+		
+	}
+
+}

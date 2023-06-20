@@ -1,0 +1,54 @@
+package class1.field;
+
+//Person 클래스를 만든다.
+
+//필드는 private String name; private int age;0 private String tel;
+//필드에 대한 getter/ setter메소드를 만들어서 필드를 메소드로 접근하도록한다.
+//나이를 성인나이 20살부터 60살까지 초기화 할수있도록 setAge메소드를 수정
+
+class Person {
+
+	private String name;
+	private int age;
+	private String tel;
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setAge(int age) {
+		if(age <20 && age >60) {
+			return;
+			
+		}
+		this.age = age;
+	}	
+	public int getAge() {
+		return age();
+	
+	}
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+	public String getTel() {
+		return tel;
+	}
+	
+}
+
+
+
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		Person person = new Person();
+		
+		
+	}
+
+}

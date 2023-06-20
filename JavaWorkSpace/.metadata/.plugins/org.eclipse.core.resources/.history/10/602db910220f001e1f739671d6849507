@@ -1,0 +1,29 @@
+package class1.field;
+
+class Student{
+	//field : class 에 선언된 변수(맴버변수)
+	int studentID = 202301;
+	String name = "홍길동";
+	
+	public void study() {
+		String place = "도서관";
+		int time = 2;
+		System.out.println(place+ "에서"+time+"시간동안 공부합니다.");
+	}
+}
+
+
+
+
+public class Ex01 {
+
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package class1;
+
+
+//소스파일의 이름은 public class 이름과 일치
+public class Hello {
+
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

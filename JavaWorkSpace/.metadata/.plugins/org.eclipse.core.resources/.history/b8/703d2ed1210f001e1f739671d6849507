@@ -1,0 +1,23 @@
+package class1.field;
+
+class Student{
+	//field : class 에 선언된 변수(맴버변수)
+	int studentID = 202301;
+	String name = "홍길동"
+;}
+
+
+
+
+public class Ex01 {
+
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -16,7 +16,7 @@ public class Ex06 {
 		
 	}
 
-	public static void sum2(int[] array) {// 매개값으로 배열을 받는경우
+	public static void sum2(int[] array) {// 매개값으로 배열을 받는 경우
 
 		int sum = 0;
 		
