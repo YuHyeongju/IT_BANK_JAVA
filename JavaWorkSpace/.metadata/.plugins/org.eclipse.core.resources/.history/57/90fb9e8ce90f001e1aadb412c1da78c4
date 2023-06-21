@@ -1,0 +1,25 @@
+package class1.constructor;
+
+class Student2{
+	
+	String school = "IT학교"; 
+	int studentID;
+	String name;
+	int age;
+	
+	//기본생성자 ctrl space쓰면 생성자를 빠르게 만들수있다.
+	public Student2() {
+		
+	}
+}
+
+
+
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

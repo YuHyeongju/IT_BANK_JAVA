@@ -1,0 +1,29 @@
+package class1.array;
+
+
+class Book{
+	String  title;
+	String  author;
+	
+	
+	public Book(String title, String author) {
+		this.title = title;
+		this.author = author;
+	}
+	
+	public void showInfo() {
+		System.out.println(title + " : " + author);
+	}
+	
+}
+
+
+
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package class1.constructor;
+
+class Student2{
+	
+	String school = "IT학교"; 
+	int studentID;
+	String name;
+	int age;
+	
+}
+
+
+
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

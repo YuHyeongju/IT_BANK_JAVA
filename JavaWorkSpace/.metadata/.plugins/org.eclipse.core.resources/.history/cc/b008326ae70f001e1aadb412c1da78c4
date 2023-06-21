@@ -1,0 +1,36 @@
+package class1.constructor;
+
+
+class Student {
+	//필드
+	String school = "IT학교";
+	int studentID;
+	String name;
+	int age;
+	
+	//생성자
+	//1. 생성자를 명시하지 않으면 자바컴파일러는 기본생서자를 자동으로 만들어준다.
+	//2. 그러나 생성자를 명시하면 만들지 않는다
+	//3. 생성자는 메소드와 비슷하게 생겼지만, 반환타입이 없고, 클래스 이름과 같은 이름이다.
+	
+	public Student() { //생성자는 객체를 생성할 때 호출됨
+		System.out.println("Student 클래스의 생성자입니다.");
+		
+	}
+	
+	
+	
+	
+}
+
+
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		Student student = new Student();
+		//객체를 생성하면 생성자가 호출되고
+		//필드초기화와 메소드 호출 등 객체를 사용할 준비를 한다.
+	}
+
+}

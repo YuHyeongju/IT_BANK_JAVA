@@ -1,0 +1,105 @@
+package class1.array;
+
+import java.util.Scanner;
+
+class Member{
+	private String ID;
+	private String PW;
+	private String name;
+	
+	
+	public Member() {
+		
+	}
+
+
+	public Member(String iD, String pW, String name) {
+		this.ID = iD;
+		this.PW = PW;
+		this.name = name;
+	}
+
+
+	public String getID() {
+		return ID;
+	}
+
+
+	public void setID(String iD) {
+		ID = iD;
+	}
+
+
+	public String getPW() {
+		return PW;
+	}
+
+
+	public void setPW(String pW) {
+		PW = pW;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+class MemberService{
+	
+	Member[] member = new Member[3];
+	Scanner sc = new Scanner(System.in);
+	
+	public void memberJoin(){
+		//반복문을 사용해서 회원의 아이디,비밀번호, 이름을 입력받아 
+		//Member 객체를 생성한 후 
+		//member배열의 각 요소에 저장
+		
+		for(int i = 0; i<member.length; i++) {
+			System.out.println("회원의 아이디를 입력하여주세요");
+			System.out.println("입력: ");
+			member[i].setID = sc.next();
+			System.out.println();
+			System.out.println("회원의 비밀번호를 입력하여주세요");
+			System.out.println("입력: ");
+			member[i].setPW =sc.next();
+			System.out.println();
+			System.out.println("회원의 이름을 입력하여주세요");
+			System.out.println("입력: ");
+			member[i].setName =sc.next();
+		}
+		
+		
+		
+	}
+	public void memberList() {
+		//반복문으로 member 배열 안의 각 요소에 접근하여 
+		//회원의 아이디, 비밀번호, 이름,출력
+		
+		for(int i = 0; i < member.length; i++) {
+		System.out.println("회원의 아이디: "+ member[i].getID());
+		System.out.println("회원의 비밀번호: "+ member[i].getPW());
+		System.out.println("회원의 이름: "+ member[i].getName());
+		
+		
+		}
+	}
+}
+	
+	
+	
+}
+
+
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
