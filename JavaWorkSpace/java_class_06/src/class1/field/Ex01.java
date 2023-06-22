@@ -9,7 +9,7 @@ class Student{
 		// 지역변수
 		String place = "도서관";
 		int time = 2;
-		System.out.println(place+ "에서"+time+"시간동안 공부합니다.");
+		System.out.println(place+ "에서" + time + "시간동안 공부합니다.");
 	}
 	
 	public void profile() {

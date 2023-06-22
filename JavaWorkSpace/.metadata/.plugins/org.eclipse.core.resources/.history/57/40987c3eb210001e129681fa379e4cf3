@@ -1,0 +1,22 @@
+package pack01;
+
+
+
+
+
+
+
+public class FiledMethodEx {
+
+	public String str1 = "public 접근제한 필드";
+	protected String str2 = "protected 접근제한 필드";
+	String str3 = "default 접근제한 필드";
+	public String str4 = "public 접근제한 필드";
+	
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

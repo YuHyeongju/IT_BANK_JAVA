@@ -1,0 +1,13 @@
+package pack01;
+
+public class ConstructorTest01 {
+
+	public static void main(String[] args) {
+		
+		new ConstructorEx(); //public 접근제한생성자
+		new ConstructorEx(1); //protected 접근제한생성자
+		new ConstructorEx(1, 2); //default 접근제한생성자
+		new ConstructorEx(1, 2, 3); //private 접근제한 생성자
+	}
+
+}

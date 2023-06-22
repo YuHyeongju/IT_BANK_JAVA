@@ -1,0 +1,18 @@
+package modifier;
+
+//Machine 클래스 만들기
+//필드는 private static int ticketsu = 10;
+//티켓수를 출력해주는 showTicket 정적메소드를 만든다.
+//정수하나를 매개변수로 받아 티켓을 구입하는 butTicket 메소드만들기
+//(받은정수가 티켓수보다많으면 구입할 수없고, 티켓수가 0이되면 프로그램종료)
+
+
+
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

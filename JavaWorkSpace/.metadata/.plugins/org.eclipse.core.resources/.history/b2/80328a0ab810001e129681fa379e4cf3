@@ -1,0 +1,14 @@
+package modifier;
+
+class Box{
+	static int boxID = 0; //static 맴버변수 :메모리상에 정적이다.
+}
+
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

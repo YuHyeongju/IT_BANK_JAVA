@@ -1,0 +1,9 @@
+package pack01;
+
+public class ConstructorTest01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

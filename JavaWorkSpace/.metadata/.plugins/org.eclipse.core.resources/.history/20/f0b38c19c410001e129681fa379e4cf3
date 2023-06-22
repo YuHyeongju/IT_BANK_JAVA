@@ -1,0 +1,31 @@
+package modifier;
+
+
+class Person{
+	static final String NATION = "KOREA";
+	//정적 불변의 상수(반드시 선언과동시에 초기화)
+	final String SSN;
+	//불변의 상수
+	//선언과 동시에 초기화, 생성자에서 초기화
+	
+	String name;
+	//인스턴스 멤버변수
+	
+	
+	public Person(String ssn,String name) {
+		this.SSN = ssn;
+		this.name = name;
+	}
+	
+	
+}
+
+
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

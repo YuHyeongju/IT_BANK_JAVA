@@ -1,0 +1,23 @@
+package modifier;
+
+class Player{
+	String name = "홍길동"; //인스턴스 맴버변수
+	static String gameID = "기사"; //정적 맴버변수
+	
+	public static void gameplay() {//정적메소드
+		//인스턴스 메소드, 인스턴스 필드 사용불가
+		
+		System.out.println(gameID + "로 게임을 플레이 합니다.");
+		
+	}
+}
+
+
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

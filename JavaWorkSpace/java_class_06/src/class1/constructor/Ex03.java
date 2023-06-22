@@ -39,7 +39,7 @@ public class Ex03 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("생성할 자동차의 색상입력: ");
+		System.out.println("생성할 자동차의 색상 입력: ");
 		String color = sc.next();
 		
 		System.out.println("생성할 자동차의 속도 입력: ");

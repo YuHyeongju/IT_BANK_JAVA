@@ -1,0 +1,15 @@
+package pack02;
+
+import pack01.ConstructorEx;
+
+public class ConstructorTest02 {
+
+	public static void main(String[] args) {
+		
+		new ConstructorEx(); //public 접근제한 생성자만 호출가능
+//		new ConstructorEx(1);
+//		new ConstructorEx(1, 2);
+//		new ConstructorEx(1, 2, 3);
+	}
+
+}

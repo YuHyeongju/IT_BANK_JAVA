@@ -1,0 +1,41 @@
+package pack01;
+
+public class FiledMethodEx {
+
+	public String str1 = "public 접근제한 필드";
+	protected String str2 = "protected 접근제한 필드";
+	String str3 = "default 접근제한 필드";
+	private String str4 = "public 접근제한 필드";
+
+	public void method1() {
+		System.out.println("public 접근제한 메소드");
+	}
+
+	protected void method2() {
+		System.out.println("protected 접근제한 메소드");
+	}
+
+	 void method3() {
+		System.out.println("default 접근제한 메소드");
+	}
+
+	private void method4() {
+		System.out.println("private 접근제한 메소드");
+	}
+
+	public static void main(String[] args) {
+		
+		FiledMethodEx  ex = new FiledMethodEx();
+		
+		System.out.println(ex.str1);
+		System.out.println(ex.str2);
+		System.out.println(ex.str3);
+		System.out.println(ex.str4);
+		System.out.println();
+		ex.method1();
+		ex.method2();
+		ex.method3();
+		ex.method4();
+	}
+
+}

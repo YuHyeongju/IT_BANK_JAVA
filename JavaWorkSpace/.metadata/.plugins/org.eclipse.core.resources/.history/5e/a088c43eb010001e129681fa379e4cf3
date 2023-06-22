@@ -1,0 +1,11 @@
+package pack01;
+
+public class ConstructorEx {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

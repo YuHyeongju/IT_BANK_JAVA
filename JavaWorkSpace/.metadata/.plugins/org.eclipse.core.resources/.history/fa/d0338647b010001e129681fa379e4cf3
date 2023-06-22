@@ -1,0 +1,14 @@
+package pack01;
+
+
+
+
+
+public class ConstructorEx {
+
+	//public 접근생성자: 모든 패키지에서 생서자 호출 가능
+	public ConstructorEx() {
+		
+	}
+
+}

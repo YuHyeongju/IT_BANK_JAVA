@@ -1,0 +1,17 @@
+package pack01;
+
+
+
+
+
+public class ConstructorEx {
+
+	//public 접근생성자: 모든 패키지에서 생성자 호출 가능
+	public ConstructorEx() {
+		System.out.println("public 접근제한 생성자");
+	}
+	protected ConstructorEx() {
+		System.out.println("public 접근제한 생성자");
+	}
+
+}
