@@ -1,0 +1,20 @@
+package inheritance;
+
+class Car{
+	int speed;
+	
+	public void upSpeed() {
+		this.speed = speed;
+		System.out.println("현재속도(Car클래스): " + this.speed);
+	}
+}
+
+
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

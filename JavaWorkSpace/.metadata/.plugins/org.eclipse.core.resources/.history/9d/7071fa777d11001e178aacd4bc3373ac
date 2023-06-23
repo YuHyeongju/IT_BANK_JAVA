@@ -1,0 +1,19 @@
+package inner;
+
+
+class Outer3{
+	private int x = 100;
+	private static int y = 200;
+	
+	
+}
+
+
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package inner;
+
+class Outer5{
+	
+	public void aaa() {
+		System.out.println("aaa");
+	}
+	public void bbb() {
+		System.out.println("bbb");
+	}
+	public void ccc() {
+		System.out.println("ccc");
+	}
+}
+
+
+
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		Outer5  O5 = new Outer5() {
+			
+		}; //세미콜론
+		
+		O5.aaa();
+		O5.bbb();
+		O5.ccc();
+	}
+
+}

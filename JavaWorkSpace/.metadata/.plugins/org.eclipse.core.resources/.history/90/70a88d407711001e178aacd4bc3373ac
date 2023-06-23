@@ -1,0 +1,10 @@
+package modifier;
+
+public class Ex06 {
+ 
+	//메인메소드 
+	public static void main(String[] args){
+		
+	}
+
+}

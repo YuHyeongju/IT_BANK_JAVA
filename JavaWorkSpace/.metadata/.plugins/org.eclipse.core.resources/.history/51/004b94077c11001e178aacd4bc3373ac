@@ -1,0 +1,16 @@
+package inner;
+
+//Outer 클래스에서 Inner 클래스 멤버 접근 예제
+
+
+
+
+
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

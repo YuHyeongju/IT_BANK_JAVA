@@ -1,0 +1,41 @@
+package inner;
+
+
+class Outer1{
+	private int x = 100;
+	private static int y = 200;
+	
+	public void outerMethod1() {
+		System.out.println("public 바깥 메소드");
+	}
+	
+	private void outerMethod2() {
+		System.out.println("private 바깥 메소드");
+	}
+	
+	class Inner1{ //인스턴스 멤버 클래스
+		
+		private int z = 300;
+		
+		//인스턴스 멤버클래스에서는 정적멤버를 선언할 수 없다.
+		
+		public void disp() {
+			System.out.println("Outer x : " + x);
+			System.out.println("Inner z: "+ z);
+		}
+	}
+	
+}
+
+
+
+
+
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

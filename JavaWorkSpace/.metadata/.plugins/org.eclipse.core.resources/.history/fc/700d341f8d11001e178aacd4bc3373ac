@@ -1,0 +1,29 @@
+package inheritance;
+
+class Car{
+	int speed;
+	
+	public void upSpeed() {
+		this.speed = speed;
+		System.out.println("현재속도(Car클래스): " + this.speed);
+	}
+}
+//Car클래스를 상속받는 Genesis 클래스를 만들어 
+//upSpeed 메소드를 오버라이딩하여 재정의
+//최고 제한속도 200으로 설정
+
+class Genesis extends Car{
+	
+	public void upSpeed() {
+		System.out.println("현재속도(Genesis클래스): "+ super.speed);
+	}
+}
+
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

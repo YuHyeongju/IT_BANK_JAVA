@@ -1,0 +1,14 @@
+package inner;
+
+
+// 로컬클래스 예제
+
+
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

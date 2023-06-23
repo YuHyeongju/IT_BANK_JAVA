@@ -1,0 +1,25 @@
+package inner;
+
+class Outer5{
+	
+	public void aaa() {
+		
+	}
+	public void bbb() {
+		
+	}
+	public void ccc() {
+		
+	}
+}
+
+
+
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

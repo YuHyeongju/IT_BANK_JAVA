@@ -1,0 +1,23 @@
+package inner;
+
+
+// 로컬클래스 예제
+
+class LocalEx{
+	public void method() {
+		
+		class LocalInner{ //로컬클래스
+			
+		}
+	}
+}
+
+
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

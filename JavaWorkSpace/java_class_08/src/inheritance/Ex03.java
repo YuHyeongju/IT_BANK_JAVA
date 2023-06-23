@@ -1,0 +1,59 @@
+package inheritance;
+
+class Suv {
+
+	private String color;
+	int speed = 100;
+
+	// 부모클래스의 private 접근제한을 갖는 필드 및 메소드는
+	// 자식이 물려받을 수 없다.
+	// 부모와 자식클래스가 서로 다른패키지에 있다면, 부모의 default 접근제한을 갖는 멤버도 물려받을 수 없다.
+	// 그 이외의 경우, 모두 상속대상이다.
+
+	public void run() {  
+		System.out.println("SUV 차량이 달립니다.");
+	}
+}
+
+class Santafe extends Suv {
+	
+	int speed = 120;
+	
+	@Override
+	//어노테이션: 소스코드에 메타코드를 주는것.
+	//실행시 특정기능을 실행하도록 정보를 제공하는것.
+	//컴파일러에게 코드 문법에러를 체크하도록 정보제공
+	//메소드 선언시 사용되며, 메소드가 오버라이드 된 것 임을 
+	//알려주어 검사하도록한다.
+	//만약 오버라이드가 되지않았으면, 에러를 발생시킨다.
+	
+	public void run() {  //메소드 오버라이딩(재정의)
+		System.out.println("싼타페 차량이 달립니다.");
+		
+	
+	}
+	
+	public void disp() {
+		System.out.println("SUV 속도: "+ super.speed);
+		System.out.println("싼타페 속도: "+ this.speed);
+		
+		//부모클래스와 자식클래스에서 만든 멤버가 이름이 같으면 
+		//부모클래스 멤버에 접근: super.변수
+		//자식클래스 멤버에 접근: this.변수
+	}
+	
+	
+	
+}
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		Santafe santafe = new Santafe();
+		
+		santafe.run();
+		
+		santafe.disp();
+	}
+
+}
