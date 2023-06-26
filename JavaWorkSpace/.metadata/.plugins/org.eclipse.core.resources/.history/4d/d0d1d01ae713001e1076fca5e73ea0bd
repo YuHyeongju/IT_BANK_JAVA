@@ -1,0 +1,19 @@
+package abstraction;
+
+
+abstract class Animal{//추상클래스
+	
+	
+	
+}
+
+
+
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

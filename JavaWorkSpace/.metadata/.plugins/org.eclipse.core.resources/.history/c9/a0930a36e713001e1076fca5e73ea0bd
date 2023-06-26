@@ -1,0 +1,22 @@
+package abstraction;
+
+
+abstract class Animal{//추상클래스
+	
+	public abstract void sound(); 
+		//추상메소드, 실제 구현은 자식메소드에서 구현 
+	
+	
+	
+}
+
+
+
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

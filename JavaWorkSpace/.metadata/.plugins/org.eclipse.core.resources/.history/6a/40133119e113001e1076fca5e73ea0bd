@@ -1,0 +1,25 @@
+package poly;
+
+class Game{
+	
+	String user;
+	
+	public Game(String user) {
+		this.user = user;
+	}
+	public void play() {
+		System.out.println(user + "이(가) 게임을  플레이 합니다.");
+	}
+	
+}
+
+
+
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

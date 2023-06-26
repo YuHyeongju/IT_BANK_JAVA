@@ -1,0 +1,45 @@
+package poly;
+
+//필드의 다형성
+class Car{
+	
+	
+	
+	
+	
+}
+
+class Tire{
+	
+	public  String tireName;
+	
+	public Tire() {
+		tireName = "정품타이어";
+	}
+	public String getTireName() {
+		return  tireName;
+	}
+}
+
+class HankookTire extends Tire{
+	
+	
+	
+	
+}
+class kumhoTire extends Tire{
+	
+	
+	
+	
+	
+}
+
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

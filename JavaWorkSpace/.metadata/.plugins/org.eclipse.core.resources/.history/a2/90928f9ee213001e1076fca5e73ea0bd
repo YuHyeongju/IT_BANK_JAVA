@@ -1,0 +1,62 @@
+package poly;
+
+class Game{
+	
+	String user;
+	
+	public Game(String user) {
+		this.user = user;
+	}
+	public void play() {
+		System.out.println(user + "이(가) 게임을  플레이 합니다.");
+	}
+
+	
+	//Game클래스를 상속받는 AirplaneGame 클래스를 만든다.
+	//필드는 String arir planeName; 이다.
+	//생성자로 필드초기화(user와 airplaneName 매개값 2개를 받고 user는 부모생성자를 호출)
+	//missileAttack() 메소드를 만들어서 내용을 채워보자
+	// play()메소드를 오버라이딩하여 AirplaneGame에 맞게끔 재정의 	
+	
+	
+	
+	
+class AirplaneGame extends Game{
+	String airplaneName;
+	
+	public AirplaneGame(String user,String airplaneName) {
+		super(user);
+		this.airplaneName = airplaneName;
+	}
+	
+	public void missileAttack() {
+		System.out.println(airplaneName + "비행기가 미사일을 쏩니다.");
+		
+	}
+	@Override
+	public void play() {
+		super.play();
+		missileAttack();
+	}
+	
+
+	
+}
+
+
+
+//Game클래스를 상속받는 LOLGame 클래스를 만든다.
+// LOLGame 클래스는 필드는 String charName이다.
+// 생성자로 필드초기화(user와 charName 매개값 2개를 받고 user는 부모생성자를 호출)
+//attack() 메소드를 만들어서 내용채우기
+//play() 메소드를 오버라이딩하여 LOLGame에 맞게 재정의
+
+
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

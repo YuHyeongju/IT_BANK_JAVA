@@ -1,0 +1,25 @@
+package poly;
+
+
+
+class Parent{
+	
+	int parentMoney = 1000;
+	
+}
+
+class Child extends Parent{
+	
+	int childMoney = 500;
+	
+}
+
+
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

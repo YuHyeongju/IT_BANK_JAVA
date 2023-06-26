@@ -1,0 +1,29 @@
+package poly;
+
+//매개변수의 다양성 
+
+class Vehicle {
+	
+}
+
+class Bus extends Vehicle{
+	
+}
+
+class Taxi extends Vehicle{
+	
+	
+}
+
+class Driver{
+	
+}
+
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
