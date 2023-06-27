@@ -1,0 +1,27 @@
+package interface1;
+
+
+interface Vecicle{
+	
+}
+
+class Bus implements Vehicle{
+	
+}
+class Taxi implements Vehicle{
+	
+}
+ 
+class Driver{
+	
+}
+
+
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

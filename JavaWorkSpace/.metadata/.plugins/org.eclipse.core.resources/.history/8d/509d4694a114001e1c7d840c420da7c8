@@ -1,0 +1,25 @@
+package interface1;
+
+
+interface Print{
+	
+	void printA4(); //public abstract 생략
+	void printB4();
+	
+	
+}
+
+interface Scan{
+	
+	
+}
+
+
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

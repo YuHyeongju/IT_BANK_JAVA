@@ -1,0 +1,31 @@
+package interface1;
+
+//매개변수의 다형성
+
+interface Vehicle{
+	public void run();
+}
+
+class Bus implements Vehicle{
+	@Override
+	public void run() {
+		System.out.println("버스가 달립니다.");
+	}
+}
+class Taxi implements Vehicle{
+	
+}
+ 
+class Driver{
+	
+}
+
+
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

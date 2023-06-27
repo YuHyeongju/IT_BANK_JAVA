@@ -1,0 +1,27 @@
+package interface1;
+
+class Person{
+	private String name;
+	private int age;
+	private String tel;
+	
+	//생성자의 매개변수로 매개값을 받아 필드 초기화
+	// 필드를 출력해주는 profile 메소드 만들기
+	
+	public void profile(String name, int age, String tel) {
+		
+	}
+}
+
+
+
+
+
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

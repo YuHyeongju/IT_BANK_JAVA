@@ -9,7 +9,7 @@ class Run {
 	int speed = 100;
 
 	public void run() {
-		System.out.println("speed" + "의 속도로 달린다.");
+		System.out.println(speed + "의 속도로 달린다.");
 	}
 }
 
@@ -23,7 +23,7 @@ class Person extends Run {
 	
 	@Override
 	public void run() {
-		System.out.println(name + "이" + speed + "의 속도로 달린다.");
+		System.out.println(name + "이 " + speed + "의 속도로 달린다.");
 		walk();
 		//오버라이딩 된 메소드에서 자식 클래스에만 선언된 멤버에 접근된다.
 	}
@@ -38,7 +38,7 @@ class KiaCar extends Run {
 	}
 
 	public void run() {
-		System.out.println(model + "가" + speed + ("의 속도로 달린다."));
+		System.out.println(model + "가 " + speed + "의 속도로 달린다.");
 	}
 }
 
@@ -48,7 +48,6 @@ public class Ex02 {
 
 		Run run = new Person();
 
-		System.out.println("speed : " + "이 산책을 한다.");
 
 		run.run();
 

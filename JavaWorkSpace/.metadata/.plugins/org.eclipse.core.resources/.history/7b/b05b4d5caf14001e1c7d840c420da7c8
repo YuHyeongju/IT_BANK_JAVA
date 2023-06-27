@@ -1,0 +1,38 @@
+package interface1;
+
+
+interface ChickenHouse{
+	
+	public void chickenCook();
+	
+}
+
+class BBQChicken implements ChickenHouse{
+	
+	@Override
+	public void chickenCook() {
+		System.out.println("BBQ치킨을 요리합니다.");
+	}
+	
+	
+}
+
+class BHCChicken implements ChickenHouse{
+	
+	public BHCChicken() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}
+
+
+
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

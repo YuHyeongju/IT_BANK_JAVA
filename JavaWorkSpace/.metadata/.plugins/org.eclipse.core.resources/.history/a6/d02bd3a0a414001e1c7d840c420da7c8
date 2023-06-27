@@ -1,0 +1,25 @@
+package interface1;
+
+class Car{
+	
+}
+
+interface Tire{
+	
+}
+
+class HankookTire implements Tire{
+	
+}
+class KumhoTire implements Tire{
+	
+}
+
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

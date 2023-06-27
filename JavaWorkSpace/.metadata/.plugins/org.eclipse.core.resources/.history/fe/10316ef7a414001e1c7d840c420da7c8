@@ -1,0 +1,30 @@
+package interface1;
+
+class Car{
+	
+}
+
+interface Tire{
+	
+}
+
+
+class HankookTire implements Tire{
+	@Override
+	public void roll() {
+		System.out.println("한국타이어가 굴러갑니다.");
+	}
+}
+
+class KumhoTire implements Tire{
+	
+}
+
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

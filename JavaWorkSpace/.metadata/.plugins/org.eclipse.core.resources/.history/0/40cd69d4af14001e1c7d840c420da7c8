@@ -1,0 +1,39 @@
+package interface1;
+
+
+interface ChickenHouse{
+	
+	public void chickenCook();
+	
+}
+
+class BBQChicken implements ChickenHouse{
+	
+	@Override
+	public void chickenCook() {
+		System.out.println("BBQ 치킨을 요리합니다.");
+	}
+	
+	
+}
+
+class BHCChicken implements ChickenHouse{
+	
+	@Override
+	public void chickenCook(); {
+		System.out.println("BHC 치킨을 요리합니다.");
+	}
+	
+	
+}
+
+
+
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package interface1;
+
+
+interface Print{
+	
+}
+
+interface Scan{
+	
+	
+}
+
+
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

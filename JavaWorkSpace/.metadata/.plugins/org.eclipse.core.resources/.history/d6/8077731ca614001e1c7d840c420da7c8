@@ -1,0 +1,28 @@
+package interface1;
+
+//매개변수의 다형성
+
+interface Vehicle{
+	public void run();
+}
+
+class Bus implements Vehicle{
+	
+}
+class Taxi implements Vehicle{
+	
+}
+ 
+class Driver{
+	
+}
+
+
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package interface1;
+
+
+interface ChickenHouse{
+	
+	public void chickenCook();
+	
+}
+
+class BBQChicken implements ChickenHouse{
+	
+}
+
+class BHCChicken implements ChickenHouse{
+	
+}
+
+
+
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

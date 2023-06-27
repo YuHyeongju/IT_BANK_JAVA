@@ -1,0 +1,18 @@
+package interface1;
+
+
+//인터페이스(interface)
+// 1.  추상클래스보다 훨신 극단적이고, 제힌적인 성격을 갖는다.
+// 2.상수필드와 추상메소드만 정의 할 수 있다.
+//3. 상속받으려면  extends 키워드 대신 implements를 사용해야한다.
+//4. 다중상속이 가능
+
+
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,47 @@
+package interface1;
+
+
+interface Print{
+	
+	void printA4(); //public abstract 생략
+	void printB4(); //public abstract 생략
+	
+	
+}
+
+interface Scan{
+	
+	void scanA4();
+	void scanB4();
+	
+}
+
+
+class Machine implements Print,Scan{
+	
+	@Override
+	public void printA4(){
+		
+	}
+
+	@Override
+	public void scanA4() {
+	}
+
+	@Override
+	public void scanB4() {
+	}
+
+	@Override
+	public void printB4() {
+	}
+}
+
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
