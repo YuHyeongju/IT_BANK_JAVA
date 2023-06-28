@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="modifier.Person"/>
     <fullyQualifiedTypeName name="inner.Outer1.Inner1"/>
     <fullyQualifiedTypeName name="inner.Outer3.Inner3"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,16 @@
+package string;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		
+		//String 생성자로 String 객체 생성하기
+		
+		//배열 전체로  String 객체 생성하기
+		
+		
+		
+		
+	}
+
+}

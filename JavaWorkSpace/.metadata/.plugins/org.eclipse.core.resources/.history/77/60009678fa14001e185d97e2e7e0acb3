@@ -1,0 +1,40 @@
+package poly;
+
+class Parent {
+
+	int parentMoney = 1000;
+
+}
+
+class Child extends Parent {
+
+	int childMoney = 500;
+
+}
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+
+		Parent ploy = new Child(); // 자동타입변환(업캐스팅)
+		// 부모클래스 타입변수는 자식객체를 참조 할 수 있다.(저장할 수 있다.)
+		// 부모 위주이다. (부모필드와 부모메소드만 접근가능)
+
+		// System.out.println("childMoney : "+ poly.childMoney);
+		// 자식멤버는 접근 할 수없음
+		System.out.println("parentMoney : " + ploy.parentMoney);
+		// 오로지 부모멤버만 접근가능
+		System.out.println();
+
+		Child poly2 = (Child) ploy; // 강제 타입변환 (다운캐스팅)
+		System.out.println("childMoney :  " + poly2.childMoney);
+		System.out.println("parentMoney :  " + poly2.parentMoney);
+		System.out.println();
+
+		Parent poly3 = poly2; // 자식은 부모타입으로 자동타입변환
+		// poly3로 접근가능한 멤버가 부모멤버로 한정됨
+		System.out.println("parentMoney : " + poly3.parentMoney);
+
+	}
+
+}

@@ -21,7 +21,7 @@ public class Ex01 {
 		// 부모 위주이다. (부모필드와 부모메소드만 접근가능)
 
 		// System.out.println("childMoney : "+ poly.childMoney);
-		// 자식멤버는 접근 할 수없음
+		// 자식멤버는 접근 할 수 없음
 		System.out.println("parentMoney : " + ploy.parentMoney);
 		// 오로지 부모멤버만 접근가능
 		System.out.println();

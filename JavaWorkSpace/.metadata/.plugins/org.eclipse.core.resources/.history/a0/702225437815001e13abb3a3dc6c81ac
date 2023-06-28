@@ -1,0 +1,11 @@
+package string;
+
+public class Ex06 {
+	
+	public static void main(String[] args) {
+		
+		String str = "Hello Java";
+		
+		//indexOf : 문자열에 지정한 문자가 처음 몇번째 있는지 반환
+	}
+}

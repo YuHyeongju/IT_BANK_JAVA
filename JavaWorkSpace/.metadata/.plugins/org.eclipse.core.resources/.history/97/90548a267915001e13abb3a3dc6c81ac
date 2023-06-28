@@ -1,0 +1,14 @@
+package string;
+
+public class Ex07 {
+
+	public static void main(String[] args) {
+		
+		//toLowerCase: 문자열에 대문자를 소문자로 변환
+		
+		String str = "abcDEf"
+		
+		
+	}
+
+}
