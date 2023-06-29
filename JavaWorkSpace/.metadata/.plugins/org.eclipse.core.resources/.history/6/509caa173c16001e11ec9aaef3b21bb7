@@ -1,0 +1,10 @@
+package api;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		//Arrays 클래스는 배열을 사용하는데 있어서 편리한 기능을 제공해준다.
+		// Math클래스와 마찬가지로 Static 메소드들로 구성되어있어 편하게 접근가능하다.
+	}
+
+}

@@ -1,0 +1,13 @@
+package api;
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+
+		int[] numbers = {29, 77, 56, 93, 15, 60};
+		
+		//numbers 배열에서 Math 클래스의 메소드를 사용하여
+		//최대값과 최소값 구하기
+	}
+
+}

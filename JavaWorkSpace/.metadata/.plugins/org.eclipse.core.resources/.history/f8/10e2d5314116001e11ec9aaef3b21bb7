@@ -1,0 +1,27 @@
+package api;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Ex07 {
+
+	public static void main(String[] args) {
+		Date now = new Date();
+		//현재 시스템의 시간으로 객체를 생성
+		// 그 외에는 잘 사용안함.
+		
+		System.out.println(now.toString());
+		
+		SimpleDateFormat sdf1= new SimpleDateFormat("yyyy.MM.dd"); //날짜 포맷변경
+		SimpleDateFormat sdf2 = new SimpleDateFormat("a hh:mm:ss"); //시간 포맷 변경
+		
+		String date = sdf1.format(now);
+		String time = sdf2.format(now);
+		
+		System.out.println("Date : " + date);
+		System.out.println("Time : " + time);
+		
+		System.out.println();
+	}
+
+}

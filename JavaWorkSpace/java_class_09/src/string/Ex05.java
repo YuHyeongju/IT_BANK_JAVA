@@ -17,7 +17,7 @@ public class Ex05 {
 		
 		char gender = Jumin.charAt(7);
 		
-		if(gender == 1 ||gender == 3) {
+		if(gender == 1 || gender == 3) {
 			
 			System.out.println("남자입니다.");
 			

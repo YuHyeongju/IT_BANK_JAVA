@@ -5,7 +5,7 @@ public class Ex01 {
 	public static void main(String[] args) {
 
 		//String은 클래스이다.
-		// 문자열은 프로그램에서 굉장히많이 사용되기 때문에 
+		// 문자열은 프로그램에서 굉장히 많이 사용되기 때문에 
 		//자바에서 String 클래스를 기본형과 같은 형식으로 쓸 수 있도록 해두었다.
 		
 		String str1 = "Hello";

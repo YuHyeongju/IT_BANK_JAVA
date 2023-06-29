@@ -1,0 +1,39 @@
+package api;
+
+import java.util.Scanner;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		long time1  = System.currentTimeMillis();
+		//현재 시간을 읽어서 밀리세컨드 값을 long 타입으로 반환
+		
+		System.out.println(time1);
+		
+		long time2 = System.nanoTime();
+		//현재 시간을 읽어서 나노세컨드 값을 long 타입으로 반환
+		
+		System.out.println(time2);
+		
+		long start = System.currentTimeMillis();
+		for(int i = 0; i < 10000; i++) {
+			
+		}
+		long end = System.currentTimeMillis();
+		
+		System.out.println("for문 실행시간: " + (end - start) + "ms");
+		
+		Scanner sc  = new Scanner(System.in);
+		
+		System.out.println("시스템을 종료할까요? (1)YES (2) NO");
+		System.out.println("입력: ");
+		int choice = sc.nextInt();
+		
+		if(choice == 1) {
+			System.exit(0);
+		}else {
+			System.out.println("시스템은 계속 돌아갑니다.");
+		}
+	}
+
+}

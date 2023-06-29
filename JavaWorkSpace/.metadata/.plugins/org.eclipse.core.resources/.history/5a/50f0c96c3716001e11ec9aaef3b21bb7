@@ -1,0 +1,15 @@
+package api;
+
+import java.util.Random;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		//Random r = new Random(123456);
+		Random r = new Random(System.currentTimeMillis());
+		//종자값(seed)을 설정하여 난수를 발생
+		// 기본적으로 System.currentTimeMillis()로 지정하여
+		// 종자값이 다르게 설정함
+	}
+
+}

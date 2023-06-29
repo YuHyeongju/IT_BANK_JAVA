@@ -1,0 +1,14 @@
+package api;
+
+import java.util.Scanner;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		//Calendar 클래스를 사용하여
+		// 년도와 월을 입력받아 달력만들기
+		
+		 Scanner sc = new Scanner(System.in);
+	}
+
+}

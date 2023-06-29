@@ -14,7 +14,7 @@ public class Ex06 {
 		
 		System.out.println("indexOf: " + str.lastIndexOf("a"));
 		
-		//substring: 문자열에 지정한 법우이ㅔ 속하는 문자열을 반환
+		//substring: 문자열에 지정한 범위에 속하는 문자열을 반환
 		//(시작범위 값은 포함 끝나는 범위값 포함x)
 		
 		String str2 = "ABCDEFG";
