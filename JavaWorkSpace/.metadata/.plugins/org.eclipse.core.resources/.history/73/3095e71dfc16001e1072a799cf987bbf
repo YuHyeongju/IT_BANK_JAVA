@@ -1,0 +1,11 @@
+package exception;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		//system.out.println(); 컴파일 오류 
+		//자바컴파일러가 구문체크를 해줌
+	}
+
+}

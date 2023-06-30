@@ -1,0 +1,26 @@
+package exception;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		method();
+		
+		
+	}
+	
+	public static void method() {
+		
+		try {
+		
+		Class clazz =  Class.forName("exception.Ex04");  //forName 정적메소드 호출 
+		//매개값으로 문자열을 주면 
+		//exception 패키지의 Ex04를 로딩시켜줌
+		
+		}catch(ClassNotFoundException e) {
+			
+		}
+	}
+		
+
+}

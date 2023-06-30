@@ -1,0 +1,22 @@
+package exception;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void method() {
+		
+		try {
+		
+		Class clazz = new Class("exception.Ex04"); 
+		//exception 패키지의 Ex04를 로딩시켜줌
+		
+		}catch(ClassNotFoundException e) {
+			
+		}
+	}
+		
+
+}

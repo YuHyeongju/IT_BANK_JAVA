@@ -1,0 +1,16 @@
+package collection;
+
+import java.util.ArrayList;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>(); 
+		// 나는 String 객체들을 저장하고 관리하겠다.
+		//List:데이터를 일렬로 늘어놓은 구조
+		//데이터의 중복 허용, 순서 중요
+		
+		list.add("홍길동")
+	}
+
+}

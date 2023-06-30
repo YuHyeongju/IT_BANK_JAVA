@@ -33,6 +33,27 @@ public class Ex08 {
 		 System.out.println("week: " + week + ", lastDay : " + lastDay);
 		 
 		 //week 와 lastDay를 사용하여 달력만들기
-	}
+		 
+		 System.out.println("\t\t " + year + "년  " + month + "월");
+		 
+		 System.out.println("-------------------------------------------");
+		 
+		 System.out.println("일\t월\t화\t수\t목\t금\t토");
+		 
+		 for(int i = 1; i < week; i++) {
+			 System.out.print("\t");
+		 }
+		 
+		 for(int i= 1; i <= lastDay; i++) {
+			 System.out.print(i + "\t");
+			 week++;
 
+			 if(week > 7) {
+		 		System.out.println();
+		 		week = 1;
+			 }
+	
+		}
+		System.out.println("--------------------------------------------"); 
+	}
 }

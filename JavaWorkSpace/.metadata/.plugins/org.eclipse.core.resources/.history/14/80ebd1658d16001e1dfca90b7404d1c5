@@ -1,0 +1,64 @@
+package api;
+
+import java.util.Objects;
+
+class Person{
+	 private String name;
+	 private int age;
+	 private final String SSN;
+	 
+	 public Person (String name, int age, String ssn) {
+		 this.name = name;
+		 this.age = age;
+		 this.SSN = ssn;
+	 }
+	 
+	 //hash 메소드 재정의
+	 // 데이터가 같을때는 같은 hashCode값을 반환하도록 재정의 해줌
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(SSN, age, name);
+	}
+	
+	//equals 메소드 재정의 이유
+	//데이터가 같을때에는 True를 반환하도록 재정의 
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Person other = (Person) obj;
+		return Objects.equals(SSN, other.SSN) && age == other.age && Objects.equals(name, other.name);
+	}
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", age=" + age + ", SSN=" + SSN + "]";
+	}
+	 
+	//쓸모없는 toString 정보를 가치있는 정보를 표시하도록 재정의 
+}
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		Person person1 = new Person("홍길동", 20, "123456-1234567");
+		Person person2 = new Person("이순신", 20, "123456-1234567");
+		
+		System.out.println(person1.equals(person2));// 같은 객체면 True 반환
+		
+		
+		
+		System.out.println(person1.hashCode());
+		System.out.println(person2.hashCode());
+		//hashcode: 객체의 주소값을 반환한 객체의 고유한 정수 값
+		
+		System.out.println(person1.toString());//toString 메소드를 만든 적이 없는데 호출이 된다.
+	}
+
+}

@@ -1,0 +1,31 @@
+package exception;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		try {
+		method();
+		}catch(ClassNotFoundException e) {
+			System.out.println("해당 클래스를 찾을 수 없습네다.");
+		}
+		
+	}
+	
+	public static void method() throws ClassNotFoundException { //여기서 예외처리하기싫음
+								//호출한 곳으로 예외처리 짬때리기
+//		try {
+//		
+//		Class clazz =  Class.forName("exception.Ex04");  //forName 정적메소드 호출 
+//		//매개값으로 문자열을 주면 
+//		//exception 패키지의 Ex04를 로딩시켜줌
+//		
+//		}catch(ClassNotFoundException e) {
+//			
+//		}
+		
+		Class clazz =  Class.forName("exception.Ex04");
+	}
+		
+
+}

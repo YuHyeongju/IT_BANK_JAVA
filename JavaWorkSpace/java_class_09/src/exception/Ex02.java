@@ -1,0 +1,21 @@
+package exception;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		try {
+		System.out.println(1 / 0);
+		}catch(ArithmeticException ae){
+			System.out.println("0으로 나눌수 없습니다.");
+		}catch(ArrayIndexOutOfBoundsException aie) {
+			System.out.println("인덱스 범위를 초과했습니다.");
+		}catch(Exception e) {
+			//ArrayIndexOutOfBoundsException
+			//ArithmeticException 을 제외한 나머지를 처리할수 있음
+			System.out.println("Exception 예외가 발생했습니다.");
+		}//상위 예외클래스는 하위 예외클래스보다 아래쪽에 있어야한다.
+		
+	}
+
+}

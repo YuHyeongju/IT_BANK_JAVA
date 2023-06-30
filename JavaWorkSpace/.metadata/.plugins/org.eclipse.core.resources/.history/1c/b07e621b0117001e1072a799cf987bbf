@@ -1,0 +1,14 @@
+package exception;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		try {
+			System.out.println(1 / 0);
+		}catch(ArithmeticException ae){
+			ae.printStackTrace();
+			//예외 발생 당시에 호출스텍에 있던 메소드의 정보와 예외메세지를 출력
+		}
+	}
+
+}

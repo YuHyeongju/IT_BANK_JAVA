@@ -1,0 +1,10 @@
+package exception;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		//system.out.println(); 컴파일 오류
+	}
+
+}

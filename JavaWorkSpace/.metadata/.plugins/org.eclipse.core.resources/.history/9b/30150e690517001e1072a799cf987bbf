@@ -1,0 +1,25 @@
+package genelic;
+
+class Box {
+	private Object obj;
+
+	public Object getObj() {
+		return obj;
+	}
+
+	public void setObj(Object obj) {
+		this.obj = obj;
+	}
+
+}
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		Box box = new Box();
+
+		box.setObj("오늘 좋은 하루되세요");
+		
+		box.getObj();	}
+
+}
