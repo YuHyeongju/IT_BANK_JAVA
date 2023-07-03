@@ -1,0 +1,24 @@
+package collection;
+
+class Student{
+	
+	int studentID;
+	String name;
+	String department;
+	
+	public Student(int studentID) {
+		
+	}
+}
+
+
+
+
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

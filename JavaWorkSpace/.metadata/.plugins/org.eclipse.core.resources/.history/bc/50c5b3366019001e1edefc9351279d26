@@ -1,0 +1,23 @@
+package collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		//HashMap을 이용하여 아이디, 비밀번호 4개 저장
+		//<String, String>
+		//ketset 메소드를 key 객체의 목록을 Set타입으로 얻은 후 
+		//Iterator를 사용하여 아이디 비밀번호 출력
+		
+		Map <Integer, String> map = new HashMap<>();
+		
+		map.put(1, "dog");
+		map.put(2, "cat");
+		map.put(3, "tiger");
+		map.put(1, "rabbit");
+		
+	}
+
+}

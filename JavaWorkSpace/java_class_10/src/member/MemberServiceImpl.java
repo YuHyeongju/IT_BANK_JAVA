@@ -1,0 +1,80 @@
+package member;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class MemberServiceImpl implements MemberService {
+	
+	private List<Member> list = new ArrayList<>();
+	
+	private Scanner sc  = new Scanner(System.in);
+	
+	
+	@Override
+	public void memberList() {
+		//전체 회원 목록 출력(이름,나이, 전화번호)
+		for(int i = 0; i < list.size(); i++) {
+			
+			Member member = list.get(i);
+			
+			String name = member.getName();
+			int age  = member.getAge();
+			String tel = member.getTel();
+			System.out.println("==================================================");
+			System.out.println(i+1 + "번쨰 회원의 이름 나이 전화번호");
+			System.out.println("이름: " + name + ", 나이: " + age + ", 전화번호 : " + tel);
+			System.out.println("==================================================");
+			
+		}
+		
+	}
+
+	@Override
+	public void memberJoin() {
+		//이름 , 나이 ,전화번호를 입력받아 회원등록
+		System.out.println("이름 입력 : ");
+		String name = sc.next();
+		
+		System.out.println("나이 입력: ");
+		int age = sc.nextInt();
+		
+		System.out.println("전화번호 입력: ");
+		String tel = sc.next();
+		
+		list.add(new Member(name, age, tel)); //맴버객체 생성
+		
+	}
+
+	@Override
+	public void memberInfo() {
+		
+		//이름을 입력받아 해당 회원의 나이,전화번호 출력
+		System.out.println("이름 입력 : ");
+		String name = sc.next();
+		
+		
+		
+		
+		
+		
+	}
+
+	@Override
+	public void memberEdit() {
+		
+		//이름을 입력받아 해당 회원의 나이와 전화번호 수정하기
+		
+		
+	}
+	
+	@Override
+	public void memberDelete() {
+		
+	//이름을 입력받아 해당회원 삭제하기	
+		
+	}
+	
+	
+	
+}

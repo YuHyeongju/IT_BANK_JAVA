@@ -1,0 +1,17 @@
+package collection;
+
+import java.util.LinkedList;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		LinkedList<String> list = new LinkedList<>();
+		
+		list.add("망고");
+		list.add("망고");
+		list.add("망고");
+		list.add("망고");
+		list.add("망고");
+	}	
+
+}

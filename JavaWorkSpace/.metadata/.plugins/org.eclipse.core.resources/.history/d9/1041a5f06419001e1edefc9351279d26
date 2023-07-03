@@ -1,0 +1,40 @@
+package member;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class MemberServiceImpl implements MemberService {
+	
+	private List<Member> list = new ArrayList<>();
+	
+	private Scanner sc  = new Scanner(System.in);
+	
+	
+	@Override
+	public void memberList() {
+		
+		
+		
+	}
+
+	@Override
+	public void memberJoin() {
+	}
+
+	@Override
+	public void memberInfo() {
+	}
+
+	@Override
+	public void memberEdit() {
+	}
+
+	@Override
+	public void memberDelete() {
+		
+	}
+	
+	
+	
+}

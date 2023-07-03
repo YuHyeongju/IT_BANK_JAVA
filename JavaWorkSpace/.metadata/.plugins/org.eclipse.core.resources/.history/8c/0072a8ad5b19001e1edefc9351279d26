@@ -1,0 +1,11 @@
+package collection;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		//String 타입의 hashset 클래스를 생성 후
+		//과일의 이름을 5개 넣는다.
+		//반복자( Iterator)를 사용하여 하나씩 과일 이름 출력하기
+	}
+
+}

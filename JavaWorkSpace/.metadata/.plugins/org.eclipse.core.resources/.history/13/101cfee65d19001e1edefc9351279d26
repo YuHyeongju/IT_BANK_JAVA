@@ -1,0 +1,22 @@
+package collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Ex07 {
+
+	public static void main(String[] args) {
+		Map<Integer, String> map = new HashMap<>();
+		
+		
+		//데이터 넣기
+		map.put(new Integer(1),new String("홍길동"));	
+		map.put(2, "성춘향");
+		map.put(3, "이몽룡");
+		map.put(1, "홍길순");
+		//동일한 key 객체로 저장하는 코드를 작성하면 value 객체가 대체된다.
+	
+	
+	}
+
+}

@@ -1,0 +1,30 @@
+package collection;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		//String 타입의 hashset 클래스를 생성 후
+		//과일의 이름을 5개 넣는다.
+		//반복자( Iterator)를 사용하여 하나씩 과일 이름 출력하기
+		
+		Set<String> set = new HashSet<>();
+		
+		set.add("사과");
+		set.add("배");
+		set.add("포도");
+		set.add("바나나");
+		set.add("오렌지");
+		
+		Iterator<String> iterator = set.iterator();
+		
+		while(iterator.hasNext()) {
+			String fruit = iterator.next();
+			System.out.println(fruit);
+		}
+	}
+
+}

@@ -8,4 +8,6 @@
     <fullyQualifiedTypeName name="inner.Outer1.Inner1"/>
     <fullyQualifiedTypeName name="inner.Outer3.Inner3"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
