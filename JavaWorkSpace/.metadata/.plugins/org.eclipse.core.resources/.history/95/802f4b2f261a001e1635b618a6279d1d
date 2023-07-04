@@ -1,0 +1,26 @@
+package io;
+
+import java.io.*;
+
+
+public class Ex02 {
+
+	public static void main(String[] args) throws Exception {
+		
+		File dir = new File("C: " + File.separator + "aaa");
+		File file = new File(dir, "aaa.txt");
+		
+		if(file.createNewFile()) {
+			//파일이 없으면 파일을 생성 후 true 반환
+			//파일이있으면  flase 반환
+			System.out.println("aaa.txt 파일을 생성합니다.");
+		}else {
+			System.out.println("aaa.txt 파일은 이미 존재합니다.");
+		}
+		
+		File.createTempFile("java",".dat", dir);
+		//임시파일은 앞에 이름을 정하고, 뒤에 이름을 정한다.
+		// 중간에는 임의의 숫자가 들어간다.
+	}
+
+}

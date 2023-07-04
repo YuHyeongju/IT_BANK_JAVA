@@ -50,21 +50,59 @@ public class MemberServiceImpl implements MemberService {
 	public void memberInfo() {
 		
 		//이름을 입력받아 해당 회원의 나이,전화번호 출력
-		System.out.println("이름 입력 : ");
+		System.out.println("조회 할 회원 이름 입력 : ");
 		String name = sc.next();
 		
+		for(int i = 0; i <list.size(); i++) {
+			
+			
+			Member info = list.get(i); //맴버객체를 꺼내서 info에 저장
+			
+			if(info.getName().equals(name) ) {
+				
+				System.out.println("====================================================");
+				System.out.println(name + "님의 나이는" + info.getAge() + " 살 입니다.");
+				System.out.println(name + "님의 전화번호는: " + info.getTel() + "번 입니다.");
+				System.out.println("====================================================");
+				return;
+			}
+			
+		}
 		
-		
-		
-		
-		
+		System.out.println(name + "님은 저희 회원이 아닙니다.");
+				
 	}
 
 	@Override
 	public void memberEdit() {
 		
 		//이름을 입력받아 해당 회원의 나이와 전화번호 수정하기
+		System.out.println("수정 할 회원 이름 입력 : ");
+		String name = sc.next();
 		
+		for(int i = 0; i < list.size(); i++) {
+			
+			Member edit = list.get(i); //맴버객체를 꺼내서 edit에 저장
+			
+			if(edit.getName().equals(name) ) {
+				
+				System.out.println(name + "님의 나이는 : " + edit.getAge() + " 살 입니다.");
+				System.out.println("수정할 나이 입력: ");
+				int newAge = sc.nextInt();
+				
+				System.out.println(name + "님의 전화번호는 : " + edit.getTel() + "번 입니다.");
+				System.out.println("수정할 전화번호 입력: ");
+				String newTel = sc.next();
+				
+				edit.setAge(newAge);
+				edit.setTel(newTel);
+				
+				System.out.println(name + "님의 나이와 전화번호를 수정하였습니다.");
+				return;
+				
+			}
+		}
+		System.out.println(name + "님은 저희 회원이 아닙니다.");
 		
 	}
 	
@@ -72,9 +110,21 @@ public class MemberServiceImpl implements MemberService {
 	public void memberDelete() {
 		
 	//이름을 입력받아 해당회원 삭제하기	
+		System.out.println("삭제 할 회원 이름 입력 : ");
+		String name = sc.next();
 		
+		for(int i = 0; i < list.size(); i++) {
+			
+			Member delete = list.get(i);
+			
+			if(delete.getName().equals(name)) {
+			
+				list.remove(i);
+				System.out.println(name + " 회원을 삭제하였습니다.");
+				return;
+			}
+		}
+		System.out.println(name + "님은 저희 회원이 아닙니다.");
 	}
-	
-	
-	
+
 }

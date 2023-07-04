@@ -1,0 +1,12 @@
+package io;
+
+public class Ex03 {
+
+	public static void main(String[] args) throws Exception {
+		
+		File dir = new File("C: " + File.separator + "aaa");
+		File file = new File(dir, "aaa.txt");
+		
+	}
+
+}

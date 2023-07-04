@@ -1,0 +1,26 @@
+package io;
+
+import java.io.*;
+
+public class Ex04 {
+
+	public static void main(String[] args) throws Exception {
+		
+		File dir = new File("C:" + File.separator + "aaa");
+		File file = new File(dir, "aaa.txt");
+		
+		FileInputStream fis = new FileInputStream(file);
+		
+		while(true) {
+		
+			int data = fis.read(); // 한 바이트의 내용을 int 타입으로 읽어낸다.
+			
+			if(data == -1) {//바이트 입력의 끝값은 -1이다.
+				break;
+			}
+			System.out.println((char)data);
+		}
+		fis.close();
+	}
+
+}

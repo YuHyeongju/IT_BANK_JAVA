@@ -1,0 +1,13 @@
+package io;
+
+import java.io.*;
+public class Ex06 {
+
+	public static void main(String[] args) throws Exception{
+		
+		File dir = new File("C: " + File.separator + "aaa");
+		File file1 = new File(dir, "aaa.txt");
+		
+	}
+
+}
